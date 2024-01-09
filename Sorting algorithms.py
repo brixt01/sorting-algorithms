@@ -42,8 +42,8 @@ while(True):
         print("Values must be at least 10.\n")
 
 pygame.display.set_caption("Sorting algorithm visualiser")
-screenWidth = 1280
-screenHeight = 720
+screenWidth = 854
+screenHeight = 480
 window = pygame.display.set_mode((screenWidth, screenHeight))
 list = makeList()
 updateGraphics()
